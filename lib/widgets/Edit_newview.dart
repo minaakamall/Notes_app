@@ -24,6 +24,9 @@ class EditNewview extends StatelessWidget {
                 height: 10,
               ),
               Custometextfield(hint: 'Tittle'),
+              SizedBox(
+                height: 15,
+              ),
               Custometextfield(
                 hint: 'Content',
                 maxlines: 5,
