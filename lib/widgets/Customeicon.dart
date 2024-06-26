@@ -1,8 +1,9 @@
-
 import 'package:flutter/material.dart';
 
 class Customesearchicon extends StatelessWidget {
-  const Customesearchicon({super.key});
+  const Customesearchicon({super.key, required this.icon});
+
+  final IconData icon;
 
   @override
   Widget build(BuildContext context) {
@@ -12,9 +13,9 @@ class Customesearchicon extends StatelessWidget {
       decoration: BoxDecoration(
           color: Colors.white.withOpacity(.05),
           borderRadius: BorderRadius.circular(16)),
-      child: const Center(
+      child:  Center(
           child: Icon(
-        Icons.search,
+        icon,
         size: 28,
       )),
     );
