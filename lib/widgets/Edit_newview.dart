@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:newapp/widgets/Constant.dart';
 import 'package:newapp/widgets/Custome_appbar.dart';
 import 'package:newapp/widgets/Custome_textfield.dart';
 
